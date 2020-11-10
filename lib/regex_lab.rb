@@ -25,6 +25,6 @@ end
 def valid_phone_number?(phone)
   if phone =~ /\d{3}\d{3}\d{4}/
     return true
-  else 
+  else
     return false
 end
